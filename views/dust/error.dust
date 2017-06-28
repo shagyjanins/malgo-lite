@@ -1,0 +1,7 @@
+<p>{message}</p>
+<p>{error.status}</p>
+<div class="footer">
+  <div class="footer-right">
+    <p>Please send your feedback to<a style="color: green" target="_blank" href="mailto:ask_codesearch@linkedin.com?Subject=Codesearch%20Feedback"> ask_codesearch@linkedin.com</a></p>
+  </div>
+</div>
