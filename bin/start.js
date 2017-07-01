@@ -5,7 +5,7 @@
  */
 
 var app = require('../app');
-var json = require('../convertTojson');
+var json = require('../convertToJson');
 var debug = require('debug')('malgo-lite:server');
 var http = require('http');
 

@@ -14,6 +14,7 @@ var app = express();
 /* Define routes here */
 app.use('/', require('./routes/index'));
 app.use('/regen', require('./routes/regen'));
+app.use('/trade', require('./routes/trade'));
 
 /*
  Define the template_engine either dust or jade(not used)

@@ -1,0 +1,43 @@
+<form name="trade_form" action="javascript:tradeIt('Executing the trade!!');" method="get">
+  <div class="form-group">
+    <label for="symbol">Symbol</label>
+    <input type="text" class="form-control text-uppercase" id="symbol" placeholder="Enter Symbol" name="symbol">
+    <small id="symbol-info" class="form-text text-muted">We'll be making market calls.</small>
+  </div>
+
+<!--'Name' is neccessary to send data from form-->
+
+  <div class="form-group">
+    <label for="order-quantity" class="col-2 col-form-label">Quantity</label>
+    <div class="col-10">
+      <input class="form-control" type="number" value="0" id="order-quantity" name="quantity">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="target-price" class="col-2 col-form-label">Target</label>
+    <div class="col-10">
+      <input class="form-control" type="number" value="0" id="target-price" name="target-price">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="stop-loss" class="col-2 col-form-label">Stop-loss</label>
+    <div class="col-10">
+      <input class="form-control" type="number" value="0" id="stop-loss" name="stop-loss">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="transaction-type">Transaction Type</label>
+    <select class="form-control" id="transaction-type" name="transaction-type">
+      <option>SELL</option>
+      <option>BUY</option>
+    </select>
+  </div>
+
+  <button id="orderme" type="submit" class="btn btn-primary">MAKE-ORDER</button>
+</form>
+
+<span id="trademe" class="hide">TRADE-ME</span>
+

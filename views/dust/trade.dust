@@ -1,0 +1,21 @@
+{>"components/base"/}
+{>"components/navbar"/}
+
+<script src="./javascripts/publisher.js"></script>
+<script src="./javascripts/trade.js"></script>
+
+<link href="./stylesheets/dashboard.css" rel="stylesheet">
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-sm-offset-0 col-md-12 col-md-offset-0 main">
+
+      <h1 class="page-header">Make Your Trade</h1>
+
+      {>"components/trade_form"/}
+
+    </div>
+  </div>
+</div>
+
+{>"components/footer"/}
